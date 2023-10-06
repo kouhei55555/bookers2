@@ -2,7 +2,6 @@
   <div class="row">
     <div class="col-sm-12 col-md-8 col-lg-5 mx-auto">
       <h2>User Info</h2>
-      <!--varidation-->
       <% if @user.errors.any? %>
         <%= @user.errors.count %>error prohibited this obj from being saved:
           <% @user.errors.full_messages.each do |message|%>
